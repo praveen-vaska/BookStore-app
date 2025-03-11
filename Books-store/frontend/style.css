@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 50%;
+    margin: auto;
+    background: rgb(174, 166, 166);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(240, 7, 7, 0.914);
+}
+
+h1, h2 {
+    color: #0f0c0c;
+    margin-bottom: 6px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 20px;
+    width: 90%;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1cba3e;
+}
+.books-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.book-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.book-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.actions button {
+    margin-right: 5px;
+}
+.navigation {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    max-width: fit-content; /* Keeps buttons compact */
+    margin: 0 auto; /* Centers the navigation container horizontally */
+    justify-content: center; /* Ensures buttons are spaced evenly if there's extra space */
+}
+
+.navigation button {
+    padding: 6px 20px; /* Smaller padding for compact buttons */
+    background-color: #35820f;
+    color: rgb(227, 211, 211);
+    border: none;
+    border-radius: 15px;
+    font-size: 14px; /* Smaller font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:"10%"
+}
+
+.navigation button:hover {
+    background-color: #0056b3;
+}
+
+.navigation button:active {
+  background-color: #003f7f;
+}
+.title{
+    width: 54px;
+}
+.center {
+    max-width: 50%;
+    margin:auto;
+    background: rgb(63, 52, 52);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(253, 19, 19);
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #e5e3d8;
+    text-align: center;
+}
+
+h5 {
+    font-size: 18px;
+    color: #FFD700;
+}
