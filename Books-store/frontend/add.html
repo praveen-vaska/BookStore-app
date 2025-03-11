@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="welcome.html">Home</a>
+    <nav class="sticky-nav">
+        <a href="welcome.html">Home</a>
+        <a href="list.html">List Books</a>
+        <a href="add.html">Add Book</a>
+        <a href="update.html">Update Book</a>
+        <a href="delete.html">Delete Book</a>
+    </nav>
     <div class="container">
         <h1>Add Book</h1>
         <input type="text" id="title" placeholder="Book Title">
         <input type="text" id="author" placeholder="Author">
         <input type="number" id="price" placeholder="Price">
         <button id="addBook">Add Book</button>
-        <div class="navigation">
-            <button onclick="window.location.href='list.html'">List Books</button>
-            <button onclick="window.location.href='add.html'">AddBook</button>
-            <button onclick="window.location.href='delete.html'">Delete Book</button>
-        </div>
     </div>
     <script src="add.js"></script>
 </body>

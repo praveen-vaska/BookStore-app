@@ -1,6 +1,12 @@
+*
+{
+    margin:0;
+
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    /* margin: 20px; */
     background-color: #f4f4f4;
 }
 .container {
@@ -10,6 +16,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(240, 7, 7, 0.914);
+    margin-top: 30px;
 }
 
 h1, h2 {
@@ -112,6 +119,7 @@ button:hover {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgb(253, 19, 19);
+    margin-top: 30px;
 }
 
 h1 {
@@ -124,4 +132,28 @@ h1 {
 h5 {
     font-size: 18px;
     color: #FFD700;
+}
+/* Sticky Navigation Bar */
+.sticky-nav {
+    position: sticky;
+    top: -20px;
+    background-color: #007BFF; /* Blue background */
+    padding: 10px 0;
+    z-index: 1000; /* Ensure it stays above other elements */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+    text-align: center;
+    height: 25px;
+}
+
+.sticky-nav a {
+    color: white; /* White text */
+    text-decoration: none; /* No underline */
+    margin: 0 15px; /* Spacing between links */
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.sticky-nav a:hover {
+    color: #FFD700; /* Gold color on hover */
 }

@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="sticky-nav">
+        <a href="welcome.html">Home</a>
+        <a href="list.html">List Books</a>
+        <a href="add.html">Add Book</a>
+        <a href="update.html">Update Book</a>
+        <a href="delete.html">Delete Book</a>
+    </nav>
     <div class="container">
         <h1>Delete Book</h1>
         <input type="text" id="id" placeholder="Book ID">
         <button id="deleteBook">Delete Book</button>
-        <div class="navigation">
-            <button onclick="window.location.href='list.html'">List Books</button>
-            <button onclick="window.location.href='add.html'">AddBook</button>
-            <button onclick="window.location.href='update.html'">Update Book</button>
-        </div>
     </div>
     <script src="delete.js"></script>
     <h4>NOTE: Enter correct "ID" for Deletion</h4>

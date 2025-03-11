@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="sticky-nav">
+        <a href="welcome.html">Home</a>
+        <a href="list.html">List Books</a>
+        <a href="add.html">Add Book</a>
+        <a href="update.html?id=" id="update-link">Update Book</a>
+        <a href="delete.html?id=" id="delete-link">Delete Book</a>
+    </nav>
     <div class="container">
         <h1>Books List</h1>
         <div id="books" class="books-grid"></div>
-        <div class="navigation">
-            <button onclick="window.location.href='update.html'">Update Books</button>
-            <button onclick="window.location.href='add.html'">Add Book</button>
-            <button onclick="window.location.href='delete.html'">Delete Book</button>
-        </div>
     </div>
     <script src="list.js"></script>
 </body>

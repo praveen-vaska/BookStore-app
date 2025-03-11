@@ -12,6 +12,8 @@ async function loadBooks() {
             <h2>${book.title}</h2>
             <p><strong>Author:</strong> ${book.author}</p>
             <p><strong>Price:</strong> $${book.price}</p>
+            <a href="update.html?id=${book.id}">Update</a> |
+            <a href="delete.html?id=${book.id}">Delete</a>
         `;
         booksContainer.appendChild(bookDiv);
     });
